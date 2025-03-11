@@ -1,0 +1,33 @@
+import './Hook1.css'
+function increment(count){
+    count++;
+
+    return count;
+}
+function decrement(count){
+    count--;
+    return count;
+}
+
+function Hook1(){
+    var count = 0;
+    return(
+        <>
+            <div className="block">
+                <span>Your Counter is : <b>{count}</b> </span>
+                <button onClick={()=>{
+                    count = increment(count);
+                    console.log(document.querySelector('b').innerHTML = count
+                    )}
+                }>+</button>
+                <button onClick={()=>{
+                    count = decrement(count);
+                    console.log(document.querySelector('b').innerHTML = count)
+                    }
+                }>-</button>
+            </div>
+
+        </>
+    )
+}
+export default Hook1;
