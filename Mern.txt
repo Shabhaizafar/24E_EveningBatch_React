@@ -1,0 +1,51 @@
+=> Web Development : 
+
+Basic Need : 
+        HTML - Hyper Text Markup Language
+        CSS  - Cascading Style Sheet
+        JS   - Javascript
+
+
+1. Front-End Developer/Front-end Engineer
+    Minimum : 
+            HTML,CSS,JS,BootStrap,Tailwind CSS,React,lot of Frameworks .....etc
+
+2. Back-End Developer/Back-end Engineer :
+    Minimum : 
+            CPP,JAVA,Python,NodeJS,....etc
+
+2. Fullstack Developer/Software Engineer 
+    Minimum : 
+            Front-end + back-end + Database(SQL,MONGODB)
+---------------------------------------------------------------
+=> Web Development : 
+        HTML - Hyper Text Markup Language  - Structure
+        CSS  - Cascading Style Sheet       - design
+        JS   - Javascript                  - Functionality
+
+        - Create a WebSite (Static)
+            ex : 
+                - https://en.wikipedia.org/wiki/Taj_Mahal
+
+        - Create a WebApp (Dynamic)  
+            ex : 
+                - All Social Media Plateforms
+---------------------------------------------------------------
+=> MERN Stack : 
+    M - MongoDB      (DB) 
+    E - ExpressJs    (node->MongoDB)
+    R - ReactJs      (Front-end)  (Library) (as Framework)
+    N - NodeJs       (Back-end)   
+---------------------------------------------------------------
+-> R - ReactJs      (Front-end)
+    - use Compontants 
+    - Single  Page WebApp
+    - use Frameworks
+        (VueJs,BootStrap,Tailwind,ViteJS)
+
+Create :  npm create vite@latest
+
+run : 
+    cd foldername
+  npm install
+  npm run dev
