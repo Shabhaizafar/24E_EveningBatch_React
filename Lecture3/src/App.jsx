@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Hook1/>
+      {/* <Hook1/> */}
     </>
   )
 }
