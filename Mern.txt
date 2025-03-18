@@ -49,3 +49,11 @@ run :
     cd foldername
   npm install
   npm run dev
+
+
+
+//------------------------
+Create a Componants :-
+
+1. Using Function
+2. Using Class
