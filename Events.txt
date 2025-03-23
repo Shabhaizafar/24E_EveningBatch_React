@@ -1,0 +1,91 @@
+1. Mouse Events : 
+
+Event	                        Description
+onClick	                    Triggered when an element is clicked.
+onDoubleClick	            Triggered when an element is double-clicked.
+
+onMouseDown	                Fires when a mouse button is pressed down.
+onMouseUp	                Fires when a mouse button is released.
+onMouseMove	                Fires when the mouse moves over an element.
+onMouseEnter	            Fires when the mouse enters an element (doesn’t trigger on child elements).
+onMouseLeave	            Fires when the mouse leaves an element (doesn’t trigger on child elements).
+onMouseOver	                Fires when the mouse enters an element (triggers on child elements too).
+onMouseOut	                Fires when the mouse leaves an element (triggers on child elements too).
+onWheel	                    Fires when the user scrolls using the mouse wheel.
+
+
+2. Keyboard Events : 
+
+Event	                        Description
+onKeyDown               	Fires when a key is pressed down.
+onKeyPress (Deprecated)	    Fires when a key is pressed (use onKeyDown instead).
+onKeyUp	                    Fires when a key is released.
+
+
+3. Form Events : 
+
+Event	                        Description
+onChange	                Fires when the value of an input element changes.  textarea
+onSubmit	                Fires when a form is submitted.   //type=submit   button input 
+onFocus	                    Fires when an element receives focus.
+onBlur	                    Fires when an element loses focus.
+onInput	                    Fires when the input value changes (similar to onChange).
+onReset	                    Fires when a form is reset.
+onInvalid	                Fires when a form field is invalid.
+
+
+4. Clipboard Events : 
+
+Event	                        Description
+onCopy	                    Fires when the user copies content.
+onCut	                    Fires when the user cuts content.
+onPaste	                    Fires when the user pastes content.
+
+
+6. Touch Events (For mobile devices) : 
+
+Event	                        Description
+onTouchStart	            Fires when a touch point is placed on the screen.
+onTouchMove         	    Fires when a touch point moves across the screen.
+onTouchEnd	                Fires when a touch point is removed from the screen.
+onTouchCancel	            Fires when a touch event is interrupted (e.g., by an alert).
+
+
+7. Drag & Drop Events : 
+
+Event	                        Description
+onDrag	                    Fires when an element is being dragged.
+onDragStart	                Fires when the user starts dragging an element.
+onDragEnd	                Fires when the user stops dragging an element.
+onDragEnter	                Fires when a dragged item enters a drop target.
+onDragLeave	                Fires when a dragged item leaves a drop target.
+onDragOver	                Fires when a dragged item is over a drop target.
+onDrop	                    Fires when a dragged item is dropped.                        (Remaining)
+
+(Homework)    (video/Audio)
+8. Media Events :                     
+Event	                        Description
+onPlay	                    Fires when media starts playing.
+onPause	                    Fires when media is paused.
+onEnded	                    Fires when media playback ends.
+onTimeUpdate	            Fires when playback position changes.
+onVolumeChange	            Fires when volume is changed.
+
+(Homework)    (Animation)
+9. Animation & Transition Events : 
+
+Event	                        Description
+onAnimationStart	        Fires when an animation starts.
+onAnimationEnd	            Fires when an animation ends.
+onAnimationIteration	    Fires when an animation repeats.
+onTransitionEnd	            Fires when a CSS transition ends.
+
+
+(Homework)    (textarea)
+10. Other Miscellaneous Events :
+
+Event	                        Description
+onScroll	                Fires when an element is scrolled.
+onResize	                Fires when the window is resized.
+onLoad	                    Fires when an element (e.g., image) loads.
+onError	                    Fires when an error occurs (e.g., image fails to load).
