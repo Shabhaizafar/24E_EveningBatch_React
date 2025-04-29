@@ -1,0 +1,73 @@
+/* Layout.css */
+
+/* 🎨 Shoe Website Color Palette */
+:root {
+    --primary-color: #1e1e2f;     /* Dark navy */
+    --secondary-color: #f4f4f4;   /* Light background */
+    --accent-color: #ffa500;      /* Vibrant orange */
+    --text-color: #ffffff;        /* White text */
+    --hover-color: #ffd580;       /* Lighter orange for hover */
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: var(--hover-color);
+  }
+  
+  .outlet-container {
+    padding: 20px;
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .navbar {
+      align-items: flex-start;
+    }
+  }
+  

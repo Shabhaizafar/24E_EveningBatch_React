@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      /* Footer Styles */
+.footer-container {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo h3 {
+  font-size: 1.8rem; /* Smaller font size */
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 0.9rem; /* Smaller font size */
+  color: #ccc;
+}
+
+.footer-links, .footer-contact, .footer-social {
+  text-align: center;
+}
+
+.footer-links ul, .footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-links a, .footer-contact li {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9rem; /* Smaller font size */
+  margin: 5px 0;
+  display: block;
+}
+
+.footer-links a:hover {
+  color: #ff9c00;
+}
+
+.footer-social .social-icons a {
+  color: #ccc;
+  font-size: 1.2rem; /* Smaller font size */
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+  color: #ff9c00;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem; /* Smaller font size */
+  color: #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>StepIntoStyle</h3>
+          <p>Your go-to destination for premium shoes!</p>
+        </div>
+    
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: contact@stepintostyle.com</li>
+            <li>Phone: +1 (123) 456-7890</li>
+          </ul>
+        </div>
+    
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-instagram"></i> Instagram
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-twitter"></i> Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 StepIntoStyle. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
